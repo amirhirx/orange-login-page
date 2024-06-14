@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange login page</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/regular.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="welcome">
+            <i class="fa fa-user welcome__icon"></i>
+            <h1 class="welcome__title">Welcome back</h1>
+            <p class="welcome__text">Sign in to access to your dashboard, settings and projects.</p>
+            <a href="#" class="loginWithGoogle"><i class="fa fa-g"></i>Connect with Facebook</a>
+        </div>
+        <form class="login">
+            <label class="login__email" for="email">
+                Email
+                <div class="login__input">
+                    <i class="fa fa-at"></i>
+                    <input type="text" name="email" id="email" placeholder="Enter your Email address">
+                </div>
+            </label>
+            <label class="login__password" for="password">
+                Password
+                <div class="login__input">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Enter your Password">
+                </div>
+            </label>
+            <div class="rememberAndForgot">
+                <label for="remember" class="remember">
+                    <input type="checkbox">Remember for 30 days
+                </label>
+                <a href="#" class="forgot__link">Forgot Password?</a>
+            </div>
+            <button class="submit" submit>Sign in<i class="fa fa-arrow-right"></i></button>
+            <div class="register">
+                <h5 class="register__text">No account? <a href="#" class="register__link">Create an account</a></h5>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
